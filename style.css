@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:84px;
+    background:#F5F7FA;
+}
+.nav-content{
+    font-size:1rem;
+    display:flex;
+    gap:50px;
+    list-style:none;
+}
+#login-btn{
+    color:#4CAF4F;
+    background:none;
+    border:0;
+    font-size:14px;
+    line-height:20px;
+    margin-right:14px;
+    padding:10px 20px;
+}
+#signup-btn{
+background-color:#4CAF4F;
+color:#fff;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+}
+.section-1-main{
+    height:599px;
+    background:#F5F7FA;
+    position:relative;
+}
+.section-1{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:104px;
+    padding:96px 144px;
+    box-sizing:border-box;
+
+}
+.right-sec1{
+    height:276px;
+    width:657px;
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    gap:32px; 
+    box-sizing:border-box;
+}
+.right-sec1 h1{
+    font-size: 50px;
+}
+.right-sec1 span{
+    color:#4CAF4F;
+}
+.right-sec1 p{
+    font-size:14px;
+}
+
+.left-sec1{
+    height:407px;
+    width:391px;
+    /* border:1px solid red; */
+}
+#register-btn{
+    background-color:#4CAF4F;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+}
+#dot-img{
+    position:absolute; 
+    bottom:10px;
+    left:627px;
+}
+.section-2{
+    margin:40px 0px;
+}
+.sec-2-top{
+    text-align:center;
+}
+.sec-2-top h2{
+    font-size:36px;
+}
+.sec-2-down{
+    height:98px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.sec-3-top{
+    height:120px;
+    text-align:center;
+}
+.sec-3-top h2{
+    font-size:36px;
+    /* margin-bottom:8px; */
+    
+} 
+.sec-3-down{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:280px;
+    padding:0px 144px;
+    /* border:1px solid black; */
+}
+.sec-3-down h3{
+    font-size:28px;
+    margin-top:16px;
+    margin-bottom:8px;
+    box-sizing:border-box;
+}
+.sec3-card{
+    height:260px;
+    width:299px;
+    border:1px solid rgb(246, 245, 245);
+    padding:24px 32px;
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow:0 0 25px rgb(243, 243, 243);
+    border-radius:8px;
+
+}
+.section-b{
+    height:2242.4px;
+}
+.secb-1{
+    height:433px;
+    display:flex;
+    margin-bottom:48px;
+    /* justify-content:space-between; */
+    gap:50px;
+    align-items:center;
+    padding: 0px 144px;
+    box-sizing:border-box;
+    border:1px solid black;
+}
+.secb-1-img{
+    height:433px;
+    width:430px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* border:1px solid red; */
+}
+#rafiki-img{
+    width:430.53px;
+    height:328.99px;
+     box-sizing:border-box;
+     /* border:1px solid  blue; */
+}
+.secb-1-tb{
+    width:650px;
+    height:268px;
+    /* border:1px solid green; */
+}
+.secb-1-text{
+    width:590px;
+    height:184px;
+    /* border:1px solid black; */
+    margin-bottom:32px;
+}
+.secb-1-text h2{
+    font-size:36px;
+    margin-bottom:16px;
+
+}
+#learn-more-btn{
+     background-color:#4CAF4F;
+    color:white;
+    border:none;
+    padding:14px 32px;
+    border-radius:4px;
+
+}
+.secb-2{
+    height:288px;
+    border:1px solid black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:64px 144px;
+}
+.secb-2-text{
+    height:120px;
+    width:500px;
+    border:1px solid green;
+}
+.secb-2-text h2{
+    font-size:36px;
+}
+.secb-2-icons{
+    height:160px;
+    width:510px;
+    border:1px solid red;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.secb-2-iconbox{
+    display: flex;
+     justify-content: space-between;
+}
+.secb-2-icon-text{
+    display:flex;
+    gap:16px;
+}
+.secb-2-icon-img{
+    height:31px;
+    width:46px;
+}
